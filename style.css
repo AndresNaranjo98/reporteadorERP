@@ -1,0 +1,56 @@
+body {
+    background-color: #e9f2fc
+}
+
+
+.sidebar {
+    position: relative;
+    overflow: hidden
+}
+
+.form-data {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.main-heading {
+    font-size: 30px
+}
+
+.form-data label {
+    font-size: 13px;
+    margin-left: 2px
+}
+
+.form-data input {
+    height: 50px;
+    border: 2px solid #eee;
+    transition: all 1s;
+    border-radius: 5px
+}
+
+.form-data input:focus {
+    outline: none;
+    border: 2px solid #000;
+    box-shadow: none
+}
+
+.forgot-text {
+    color: red
+}
+
+.signin-btn .btn {
+    width: 100%;
+    height: 46px;
+    margin-top: 10px
+}
+
+.mt-20 {
+    margin-top: 20% !important;
+}
+
+.outStyle {
+    color: inherit; 
+    text-decoration: none;
+    font-size: 1.5rem;
+}
